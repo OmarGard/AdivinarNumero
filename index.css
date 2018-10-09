@@ -1,0 +1,71 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: Verdana;
+}
+header{
+  width:100%;
+}
+header h1{
+  display:block;
+  width:60%;
+  text-align:center;
+  margin:20px auto;
+  background-color: rgb(61, 198, 185);
+  border-radius: 20px;
+  padding:30px;
+}
+.content{
+  width:100%;
+  overflow: hidden;
+}
+.formulario{
+  width:40%;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  background-color: rgb(229, 240, 22);
+  padding:15px 20px;
+  overflow: hidden;
+}
+#caja1{
+  margin-left: 10px;
+  padding:2px;
+}
+.formulario button{
+  display: block;
+  width:60px;
+  margin:10px auto;
+}
+.result{
+  text-align: center;
+  width:40%;
+  margin:20px auto;
+  background-color: red;
+  border-radius:2px 20px 20px;
+  padding:10px 0;
+  display: none;
+}
+#num{
+  margin:10px auto;
+  color:white;
+}
+p{
+  text-align: center;
+}
+#used{
+  text-align: center;
+  width:40%;
+  display: block;
+  margin:20px auto;
+  background-color: rgb(185, 205, 25);
+  border-radius:2px 20px 20px;
+  padding:10px 0;
+}
+#boton2{
+  display: block;
+  margin:10px auto;
+  width:100px;
+  padding:5px;
+}

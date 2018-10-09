@@ -1,0 +1,30 @@
+<html>
+		<head>
+			<meta charset="UTF-8"/>
+			<title> ADIVINA NÚMERO</title>
+			<link rel="stylesheet" type="text/css" href="index.css"/>
+		</head>
+		<body>
+			<header>
+				<h1> ADIVINA EL NÚMERO</h1>
+			</header>
+			<div class="content">
+				<p>Voy a pensar un numero entre 1 y 100 inclusive, puedes adivinarlo en maximo 6 intentos?</p>
+				<div class="formulario">
+						<label for="caja1">Ingrese el número: </label>
+						<input name="caja1" id="caja1" type="text"/>
+						<button name"boton1" id="boton1" onclick="compara()">Aceptar</button>
+						<button name"boton2" id="boton2" onclick="location.reload()">Refrescar</button>
+				</div>
+				<div class="result" id="resultado">
+					<h3 id="texto1">El numero es o no es </h3>
+					<h3 id="num">50</h3>
+				</div>
+				<div id="used">
+					<p id="usados">Elementos usados:</p>
+					<p id="tries">Intentos:0</p>
+				</div>
+			</div>
+			<script src="main.js"></script>
+		</body>
+</html>
